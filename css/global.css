@@ -1,0 +1,9 @@
+/* This file will hold the main styles for your website. */
+
+html, body, #page-wrapper-inner { height: 100%; }
+h1, h2, h3, h4, h5, h6 { font-family: Arial, Helvetica, sans-serif; }
+#page-wrapper { min-height: 100%; background-color: #666; }
+#page-wrapper-inner { background-color: #fff; }
+
+.section-header { background-color: #39F; color: #fff; }
+.section-header a { color: #FFF; }
