@@ -10,3 +10,12 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+ 
+ /**
+ * Preprocessor for theme('fieldset').
+ */
+function fly_preprocess_fieldset(&$vars) {
+  if (!empty($vars['element']['#collapsible']) && isset($vars['element']['#title'])) {
+    $vars['element']['#title'] = "<span class='icon'></span>" . $vars['element']['#title'];
+  }
+}
