@@ -54,6 +54,9 @@ css[global.css][name] = Your custom global styles
 css[global.css][description] = This file holds all the globally active custom CSS of your theme.
 css[global.css][options][weight] = 10
 
+; JAVASCRIPT
+scripts[] = js/page.js
+
 ; THEME SETTINGS (DEFAULTS)
 
 settings[toggle_main_menu] = '0'

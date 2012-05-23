@@ -2,20 +2,40 @@
 
 html, body, #page-wrapper-inner { height: 100%; }
 h1, h2, h3, h4, h5, h6 { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
-#page-wrapper { min-height: 100%; background: #666 url(../images/fly-stripe-bg.png) repeat 0 0; }
-#page-wrapper-inner {  }
-#zone-content { background: transparent url(../images/light-container-bg.png) repeat 0 0 fixed; }
+h1 { font-size: 30px; }
+img, input, textarea { max-width: 100%; }
+#page-wrapper { min-height: 100%; background: #666 url(../images/fly-stripe-bg.png) repeat 0 0 fixed; }
+#page-wrapper-inner { background: transparent url(../images/light-container-bg.png) repeat 0 0; }
+#zone-content { }
 .region-inner { padding: 10px 0; }
 
 .section-header { color: #fff; }
 .section-header a { color: #FFF; }
-
+.div.messages { border-radius: 6px; }
 fieldset { min-height: 30px; position: relative; }
-.form-wrapper { background: transparent url(../images/dark-container-bg.png) repeat 0 0; color: #fff; }
-.fieldset-legend { color: #fff; display: block; position: absolute; left: 0; right: 0; top: 0; padding: 10px; z-index: 1; }
+fieldset.form-wrapper { background-color: #eee; }
+.fieldset-legend { background: transparent url(../images/dark-container-bg.png) repeat 0 0; color: #fff; display: block; position: absolute; left: 0; right: 0; top: 0; padding: 10px; z-index: 1; }
 legend a { display: block; }
 legend a:link, legend a:visited { color: #fff; }
-.fieldset-wrapper { padding: 40px 10px 10px; }
+.fieldset-wrapper { padding: 10px; }
+.titled .fieldset-wrapper { padding-top: 40px; }
 
 .front-action-button:link, .front-action-button:visited { float: left; display: block; padding: 10px; background-color: #09F; text-decoration: none; color: #fff; }
 .front-action-button:hover { background-color: #06F; }
+
+.region-menu-inner .block { float: right; }
+.region-menu-inner .menu li { list-style: none; margin: 0; padding: 0; }
+.region-menu-inner .menu a {
+display: block;
+background: transparent url(../images/light-container-bg.png) repeat 0 0;
+padding: 5px 10px;
+line-height: 30px;
+}
+.region-menu-inner .menu a:hover { background-color: #fff; color: #000; }
+
+.user-menu-link img { background-color: #ccc; height: 28px; width: 28px; float: left; display: block; border: 1px solid #fff; margin: auto 5px auto auto; line-height: normal; }
+
+.region-content-inner { background-color: #fff; border-radius: 6px; padding: 15px; }
+.action-links li { list-style: none; }
+.action-links li a { background-color: #39F; color: #fff; text-decoration: none; border: 12px; padding: 4px 8px; }
+.action-links li a:hover { background-color: #06F; }
