@@ -12,10 +12,10 @@ img, input, textarea { max-width: 100%; }
 .section-header { color: #fff; }
 .section-header a { color: #FFF; }
 .div.messages { border-radius: 6px; }
-fieldset { min-height: 30px; position: relative; }
+fieldset { min-height: 30px; }
 fieldset.form-wrapper { background-color: #eee; }
-.fieldset-legend { background: transparent url(../images/dark-container-bg.png) repeat 0 0; color: #fff; display: block; position: absolute; left: 0; right: 0; top: 0; padding: 10px; z-index: 1; }
-legend a { display: block; }
+.fieldset-legend { background: transparent url(../images/dark-container-bg.png) repeat 0 0; color: #fff; display: block; padding: 10px; }
+/*legend a { display: block; }*/
 legend a:link, legend a:visited { color: #fff; }
 .fieldset-wrapper { padding: 10px; }
 .titled .fieldset-wrapper { padding-top: 40px; }
@@ -35,7 +35,12 @@ line-height: 30px;
 
 .user-menu-link img { background-color: #ccc; height: 28px; width: 28px; float: left; display: block; border: 1px solid #fff; margin: auto 5px auto auto; line-height: normal; }
 
-.region-content-inner { background-color: #fff; border-radius: 6px; padding: 15px; }
+.region-content-inner { background-color: #fff; border-radius: 6px; padding: 15px; box-shadow: 0 0 5px #333; }
 .action-links li { list-style: none; }
 .action-links li a { background-color: #39F; color: #fff; text-decoration: none; border: 12px; padding: 4px 8px; }
 .action-links li a:hover { background-color: #06F; }
+
+#zone-user-wrapper { background-color: #999; color: #fff; height: 50px; margin-bottom: 20px; }
+.brand-header a { color: #fff; padding: 0 20px; height: 50px; display: block; float: left; }
+#zone-user a:hover {  background-color: #888; }
+#zone-user a.active { background-color: #666; }
